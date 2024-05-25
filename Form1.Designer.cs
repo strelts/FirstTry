@@ -30,18 +30,20 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Promocard = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.PayButton = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.helloText = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.PayButton = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Promocard)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -58,11 +60,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
+            this.panel1.Controls.Add(this.Promocard);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, -4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(887, 82);
             this.panel1.TabIndex = 2;
+            // 
+            // Promocard
+            // 
+            this.Promocard.Image = global::FirstTry.Properties.Resources.cardsPromo;
+            this.Promocard.Location = new System.Drawing.Point(752, 6);
+            this.Promocard.Name = "Promocard";
+            this.Promocard.Size = new System.Drawing.Size(114, 73);
+            this.Promocard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Promocard.TabIndex = 7;
+            this.Promocard.TabStop = false;
             // 
             // panel2
             // 
@@ -74,6 +87,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(887, 96);
             this.panel2.TabIndex = 3;
+            // 
+            // PayButton
+            // 
+            this.PayButton.Image = global::FirstTry.Properties.Resources.button_platezhi;
+            this.PayButton.Location = new System.Drawing.Point(19, 6);
+            this.PayButton.Name = "PayButton";
+            this.PayButton.Size = new System.Drawing.Size(194, 66);
+            this.PayButton.TabIndex = 7;
+            this.PayButton.TabStop = false;
+            this.PayButton.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.PayButton.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // label3
             // 
@@ -128,17 +152,6 @@
             this.panel3.Size = new System.Drawing.Size(200, 106);
             this.panel3.TabIndex = 6;
             // 
-            // PayButton
-            // 
-            this.PayButton.Image = global::FirstTry.Properties.Resources.button_platezhi;
-            this.PayButton.Location = new System.Drawing.Point(19, 6);
-            this.PayButton.Name = "PayButton";
-            this.PayButton.Size = new System.Drawing.Size(194, 66);
-            this.PayButton.TabIndex = 7;
-            this.PayButton.TabStop = false;
-            this.PayButton.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            this.PayButton.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,11 +171,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Promocard)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,6 +193,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox PayButton;
+        private System.Windows.Forms.PictureBox Promocard;
     }
 }
 

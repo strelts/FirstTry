@@ -43,6 +43,7 @@ namespace FirstTry
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.BackColor = Color.Transparent;
+            Promocard.BackColor = Color.Transparent;    
             
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
