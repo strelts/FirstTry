@@ -63,6 +63,26 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0b0b27d5f6aca7ab72eaa0ee4a3ade0b {
+            get {
+                object obj = ResourceManager.GetObject("0b0b27d5f6aca7ab72eaa0ee4a3ade0b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _0b0b27d5f6aca7ab72eaa0ee4a3ade0b2 {
+            get {
+                object obj = ResourceManager.GetObject("0b0b27d5f6aca7ab72eaa0ee4a3ade0b2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_platezhi {
             get {
                 object obj = ResourceManager.GetObject("button_platezhi", resourceCulture);
@@ -93,9 +113,69 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap output_onlinegiftools {
+            get {
+                object obj = ResourceManager.GetObject("output-onlinegiftools", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap peyzazhi_more_bereg_plyazhi {
             get {
                 object obj = ResourceManager.GetObject("peyzazhi-more-bereg-plyazhi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed2 {
+            get {
+                object obj = ResourceManager.GetObject("unnamed2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zakat_more_volny_157764_1280x800 {
+            get {
+                object obj = ResourceManager.GetObject("zakat_more_volny_157764_1280x800", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zakat_more_volny_157764_1280x8001 {
+            get {
+                object obj = ResourceManager.GetObject("zakat_more_volny_157764_1280x8001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zakat_more_volny_157764_1280x8002 {
+            get {
+                object obj = ResourceManager.GetObject("zakat_more_volny_157764_1280x8002", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

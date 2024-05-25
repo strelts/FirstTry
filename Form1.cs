@@ -43,30 +43,38 @@ namespace FirstTry
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.BackColor = Color.Transparent;
-            PayButton.BackColor = Color.Transparent;
-        }
-        
-        
-
-        private void PayButton_Validated(object sender, EventArgs e)
-        {
-            MessageBox.Show("asas");
-        }
-
-        private void PayButton_MouseHover(object sender, EventArgs e)
-        {
-            PayButton.BackgroundImage = FirstTry.Properties.Resources.button_platezhi_;
-        }
-
-        private void PayButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PayButton_MouseLeave(object sender, EventArgs e)
-        {
-            PayButton.BackgroundImage = FirstTry.Properties.Resources.button_platezhi;
             
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
+           PayButton.BackColor = Color.Transparent;
+            helloText.BackColor = Color.Transparent;
+            pictureBox1.BackColor = Color.Transparent;
+           
+
+        }
+        
+        
+
+     
+
+       
+
+      
+       
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            PayButton.Image = FirstTry.Properties.Resources.button_platezhi;
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            PayButton.Image = FirstTry.Properties.Resources.button_platezhi_;
         }
     }
 }
