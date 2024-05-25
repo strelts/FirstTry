@@ -14,6 +14,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Net.Mime.MediaTypeNames;
+using System.Reflection.Emit;
 
 namespace FirstTry
 {
@@ -43,10 +44,12 @@ namespace FirstTry
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            label4.BackColor = Color.Transparent;
+            pictureBox2.BackColor = Color.Transparent;
             label1.BackColor = Color.Transparent;
             Promocard.BackColor = Color.Transparent;   
             Time.BackColor = Color.Transparent;
+          
             
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
@@ -89,7 +92,24 @@ namespace FirstTry
 
             //TimeSpan currentTimeSpan = DateTime.Now.TimeOfDay;
 
-            Time.Text = currentTimeSpan.ToString("Дата: yyyy-MM-dd \nВремя: HH:mm:ss");
+            Time.Text = currentTimeSpan.ToString("Дата: yyyy-MM-dd \n\nВремя: HH:mm:ss");
+        }
+
+       
+
+        private void offer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void offer_MouseLeave(object sender, EventArgs e)
+        {
+            offer.Image = FirstTry.Properties.Resources.button_perejti_k_oformleniyu1;
+        }
+
+        private void offer_MouseHover(object sender, EventArgs e)
+        {
+            offer.Image = FirstTry.Properties.Resources.button_perejti_k_oformleniyu;
         }
     }
 }

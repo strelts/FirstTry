@@ -127,5 +127,26 @@
   <ItemGroup>
     <None Include="Resources\cardsPromo.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1588844076_774555.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1674271546_catherineasquithgallery-com-p-fon-vizitki-serii-foto-120.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wL1RUC-XUeU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_perejti-k-oformleniyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_perejti-k-oformleniyu1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

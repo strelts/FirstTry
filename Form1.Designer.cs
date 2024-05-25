@@ -31,19 +31,26 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Promocard = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.PayButton = new System.Windows.Forms.PictureBox();
+            this.Time = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Promocard = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PayButton = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Time = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.offer = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Promocard)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.offer)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,6 +76,39 @@
             this.panel1.Size = new System.Drawing.Size(887, 82);
             this.panel1.TabIndex = 2;
             // 
+            // Time
+            // 
+            this.Time.AutoSize = true;
+            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Time.ForeColor = System.Drawing.Color.White;
+            this.Time.Location = new System.Drawing.Point(723, 13);
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(58, 20);
+            this.Time.TabIndex = 7;
+            this.Time.Text = "Время";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(358, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(214, 22);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "+7 (999) 000 - 111 - 204";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(302, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(301, 22);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Круглосуточная помощь клинтам";
+            // 
             // Promocard
             // 
             this.Promocard.Image = global::FirstTry.Properties.Resources.cardsPromo;
@@ -90,39 +130,6 @@
             this.panel2.Size = new System.Drawing.Size(887, 96);
             this.panel2.TabIndex = 3;
             // 
-            // PayButton
-            // 
-            this.PayButton.Image = global::FirstTry.Properties.Resources.button_platezhi;
-            this.PayButton.Location = new System.Drawing.Point(19, 6);
-            this.PayButton.Name = "PayButton";
-            this.PayButton.Size = new System.Drawing.Size(194, 66);
-            this.PayButton.TabIndex = 7;
-            this.PayButton.TabStop = false;
-            this.PayButton.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            this.PayButton.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(358, 48);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(214, 22);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "+7 (999) 000 - 111 - 204";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(302, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(301, 22);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Круглосуточная помощь клинтам";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FirstTry.Properties.Resources._0b0b27d5f6aca7ab72eaa0ee4a3ade0b;
@@ -134,28 +141,75 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // PayButton
+            // 
+            this.PayButton.Image = global::FirstTry.Properties.Resources.button_platezhi;
+            this.PayButton.Location = new System.Drawing.Point(19, 6);
+            this.PayButton.Name = "PayButton";
+            this.PayButton.Size = new System.Drawing.Size(194, 66);
+            this.PayButton.TabIndex = 7;
+            this.PayButton.TabStop = false;
+            this.PayButton.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.PayButton.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Time
+            // pictureBox2
             // 
-            this.Time.AutoSize = true;
-            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Time.ForeColor = System.Drawing.Color.White;
-            this.Time.Location = new System.Drawing.Point(723, 13);
-            this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(58, 20);
-            this.Time.TabIndex = 7;
-            this.Time.Text = "Время";
+            this.pictureBox2.Image = global::FirstTry.Properties.Resources.gold_card;
+            this.pictureBox2.Location = new System.Drawing.Point(-42, 71);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(529, 271);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
+            this.panel3.Controls.Add(this.offer);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Location = new System.Drawing.Point(12, 157);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(457, 386);
+            this.panel3.TabIndex = 9;
+            // 
+            // offer
+            // 
+            this.offer.BackColor = System.Drawing.Color.Transparent;
+            this.offer.Image = global::FirstTry.Properties.Resources.button_perejti_k_oformleniyu1;
+            this.offer.Location = new System.Drawing.Point(132, 339);
+            this.offer.Name = "offer";
+            this.offer.Size = new System.Drawing.Size(171, 47);
+            this.offer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.offer.TabIndex = 9;
+            this.offer.TabStop = false;
+            this.offer.Click += new System.EventHandler(this.offer_Click);
+            this.offer.MouseLeave += new System.EventHandler(this.offer_MouseLeave);
+            this.offer.MouseHover += new System.EventHandler(this.offer_MouseHover);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(92, 34);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(279, 18);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Оформите золотую карту бесплатно!";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BackgroundImage = global::FirstTry.Properties.Resources.zakat_more_volny_157764_1280x8002;
+            this.BackgroundImage = global::FirstTry.Properties.Resources.wL1RUC_XUeU;
             this.ClientSize = new System.Drawing.Size(877, 656);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
@@ -168,8 +222,12 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Promocard)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PayButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.offer)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -186,6 +244,10 @@
         private System.Windows.Forms.PictureBox Promocard;
         private System.Windows.Forms.Label Time;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox offer;
     }
 }
 

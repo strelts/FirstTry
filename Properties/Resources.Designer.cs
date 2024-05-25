@@ -83,6 +83,46 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1588844076_774555 {
+            get {
+                object obj = ResourceManager.GetObject("1588844076_774555", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1674271546_catherineasquithgallery_com_p_fon_vizitki_serii_foto_120 {
+            get {
+                object obj = ResourceManager.GetObject("1674271546_catherineasquithgallery-com-p-fon-vizitki-serii-foto-120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_perejti_k_oformleniyu {
+            get {
+                object obj = ResourceManager.GetObject("button_perejti-k-oformleniyu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_perejti_k_oformleniyu1 {
+            get {
+                object obj = ResourceManager.GetObject("button_perejti-k-oformleniyu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_platezhi {
             get {
                 object obj = ResourceManager.GetObject("button_platezhi", resourceCulture);
@@ -123,9 +163,29 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gold_card {
+            get {
+                object obj = ResourceManager.GetObject("gold card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap output_onlinegiftools {
             get {
                 object obj = ResourceManager.GetObject("output-onlinegiftools", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap output_onlinegiftools1 {
+            get {
+                object obj = ResourceManager.GetObject("output-onlinegiftools1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +216,16 @@ namespace FirstTry.Properties {
         internal static System.Drawing.Bitmap unnamed2 {
             get {
                 object obj = ResourceManager.GetObject("unnamed2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wL1RUC_XUeU {
+            get {
+                object obj = ResourceManager.GetObject("wL1RUC-XUeU", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
