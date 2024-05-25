@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Newtonsoft.Json.Linq;
 
 namespace FirstTry
 {
@@ -40,6 +41,42 @@ namespace FirstTry
                     }
                 }
             }
+        } //
+        public static string GetValueFromJson(string jsonString, string key)
+        {
+            JObject json = JObject.Parse(jsonString);
+            return (string)json[key];
         }
+        public async Task<String> SendHttpS(System.Windows.Forms.TextBox inputs, String key)
+        {
+            string url = "http://127.0.0.1:8080/test";
+            string jsonContent = JsonConvert.SerializeObject(new { name = inputs.Text }); //Тут отправляю jsonContent типо name = 
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+                using (StringContent content = new StringContent(jsonContent, Encoding.UTF8, "application/json"))
+                {
+                    HttpResponseMessage response = await client.PostAsync(url, content); //Получаю ответ
+
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseString = await response.Content.ReadAsStringAsync(); //преобразование
+                        string res = GetValueFromJson(responseString, key);
+                        return res;
+                    }
+                    else
+                    {
+                        return "не удалось отправить запрос";
+                    }
+                }
+            }
+        } //
+
+
     }
+    
 }

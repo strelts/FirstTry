@@ -41,14 +41,23 @@ namespace FirstTry
         {
             mainForm = new Form1();
             mainForm.Hide();
+            label1.Text = "Добро пожаловать";
         }
 
         private async void button2_Click(object sender, EventArgs e)
         {
+            label1.Text = "Добро пожаловать " + await http_R.SendHttpS(textBox1, "name");
+            
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
 
-            http_R.SendHttp(textBox1);
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
