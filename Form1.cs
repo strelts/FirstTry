@@ -25,10 +25,11 @@ namespace FirstTry
         public Form1()
         {
             authForm = new Form2();
-            InitializeComponent();
-         
+            InitializeComponent(); timer1.Start();
 
-           
+
+
+
         }
     
 
@@ -42,13 +43,15 @@ namespace FirstTry
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             label1.BackColor = Color.Transparent;
-            Promocard.BackColor = Color.Transparent;    
+            Promocard.BackColor = Color.Transparent;   
+            Time.BackColor = Color.Transparent;
             
             label2.BackColor = Color.Transparent;
             label3.BackColor = Color.Transparent;
            PayButton.BackColor = Color.Transparent;
-            helloText.BackColor = Color.Transparent;
+          //  helloText.BackColor = Color.Transparent;
             pictureBox1.BackColor = Color.Transparent;
            
 
@@ -76,6 +79,17 @@ namespace FirstTry
         private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
             PayButton.Image = FirstTry.Properties.Resources.button_platezhi_;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            DateTime currentTimeSpan = DateTime.Now;
+           
+
+            //TimeSpan currentTimeSpan = DateTime.Now.TimeOfDay;
+
+            Time.Text = currentTimeSpan.ToString("Дата: yyyy-MM-dd \nВремя: HH:mm:ss");
         }
     }
 }
