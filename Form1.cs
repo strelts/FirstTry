@@ -13,6 +13,7 @@ using System.Configuration;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace FirstTry
 {
@@ -33,63 +34,39 @@ namespace FirstTry
 
   
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Auth SystemAuth = new Auth();
-            string username = Logintxt.Text;
-            string password = PassED.Text;
-           
-            if (SystemAuth.ValidateCredentials(username, password))//ValidateCredentials(username, password))
-            {
+      
 
+     
 
-                authForm.Show();
-
-              
-                this.Hide();
-
-
-            }
-            else
-            {
-                ScreenText.Text = "Неправильный логин или пароль";
-                ScreenText.ForeColor = Color.Red;
-                
-               
-               
-            }
-
-            
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PassED_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Logintxt.Text = "artem"; PassED.Text = "parol";
-        }
+      
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label1.BackColor = Color.Transparent;
+            PayButton.BackColor = Color.Transparent;
+        }
+        
+        
+
+        private void PayButton_Validated(object sender, EventArgs e)
+        {
+            MessageBox.Show("asas");
+        }
+
+        private void PayButton_MouseHover(object sender, EventArgs e)
+        {
+            PayButton.BackgroundImage = FirstTry.Properties.Resources.button_platezhi_;
+        }
+
+        private void PayButton_Click(object sender, EventArgs e)
+        {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void PayButton_MouseLeave(object sender, EventArgs e)
         {
-            Close();
+            PayButton.BackgroundImage = FirstTry.Properties.Resources.button_platezhi;
+            
         }
     }
 }
