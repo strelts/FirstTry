@@ -32,14 +32,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.Time = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.PayButton = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Time = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
@@ -75,6 +75,32 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(906, 88);
             this.panel2.TabIndex = 4;
+            // 
+            // Time
+            // 
+            this.Time.AutoSize = true;
+            this.Time.BackColor = System.Drawing.Color.Transparent;
+            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Time.ForeColor = System.Drawing.Color.White;
+            this.Time.Location = new System.Drawing.Point(718, 10);
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(58, 20);
+            this.Time.TabIndex = 9;
+            this.Time.Text = "Время";
+            this.Time.Click += new System.EventHandler(this.Time_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Location = new System.Drawing.Point(15, 24);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(198, 40);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "< Вернуться к Условия";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -135,34 +161,9 @@
             this.PayButton.MouseLeave += new System.EventHandler(this.PayButton_MouseLeave);
             this.PayButton.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PayButton_MouseMove);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(15, 24);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(198, 40);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "< Вернуться к Условия";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // Time
-            // 
-            this.Time.AutoSize = true;
-            this.Time.BackColor = System.Drawing.Color.Transparent;
-            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Time.ForeColor = System.Drawing.Color.White;
-            this.Time.Location = new System.Drawing.Point(718, 10);
-            this.Time.Name = "Time";
-            this.Time.Size = new System.Drawing.Size(58, 20);
-            this.Time.TabIndex = 9;
-            this.Time.Text = "Время";
             // 
             // FOfferGoldCredit
             // 

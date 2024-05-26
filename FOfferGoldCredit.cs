@@ -71,12 +71,17 @@ namespace FirstTry
 
             //TimeSpan currentTimeSpan = DateTime.Now.TimeOfDay;
 
-            Time.Text = currentTimeSpan.ToString("Дата: yyyy-MM-dd \n\nВремя: HH:mm:ss");
+            Time.Text = currentTimeSpan.ToString("Дата: dd Мая yyyy\n\nВремя: HH:mm:ss");
         }
 
         private void FOfferGoldCredit_Load(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void Time_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
