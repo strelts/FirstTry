@@ -127,6 +127,9 @@
   <data name="wL1RUC-XUeU" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wL1RUC-XUeU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="4263-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4263-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="button_platezhi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_platezhi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,6 +184,9 @@
   <data name="cardsPromo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cardsPromo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="button_otpravit-zayavku_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_otpravit-zayavku_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nfc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nfc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,7 +208,7 @@
   <data name="button_platezhi (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_platezhi (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_otpravit-zayavku_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_otpravit-zayavku_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

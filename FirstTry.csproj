@@ -76,6 +76,12 @@
     <Compile Include="FPromoCard.Designer.cs">
       <DependentUpon>FPromoCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="FSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuccess.Designer.cs">
+      <DependentUpon>FSuccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="HttpR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FPromoCard.resx">
       <DependentUpon>FPromoCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSuccess.resx">
+      <DependentUpon>FSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -192,6 +201,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\button_otpravit-zayavku_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4263-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -37,6 +38,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.PayButton = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Time = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PayButton)).BeginInit();
@@ -46,9 +49,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-6, 2);
+            this.panel1.Location = new System.Drawing.Point(-6, -5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(882, 82);
+            this.panel1.Size = new System.Drawing.Size(882, 89);
             this.panel1.TabIndex = 3;
             // 
             // label1
@@ -66,10 +69,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(89)))), ((int)(((byte)(90)))));
+            this.panel2.Controls.Add(this.Time);
             this.panel2.Controls.Add(this.button2);
-            this.panel2.Location = new System.Drawing.Point(-3, 580);
+            this.panel2.Location = new System.Drawing.Point(-3, 574);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(906, 82);
+            this.panel2.Size = new System.Drawing.Size(906, 88);
             this.panel2.TabIndex = 4;
             // 
             // textBox1
@@ -144,6 +148,22 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // Time
+            // 
+            this.Time.AutoSize = true;
+            this.Time.BackColor = System.Drawing.Color.Transparent;
+            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Time.ForeColor = System.Drawing.Color.White;
+            this.Time.Location = new System.Drawing.Point(718, 10);
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(58, 20);
+            this.Time.TabIndex = 9;
+            this.Time.Text = "Время";
+            // 
             // FOfferGoldCredit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,9 +184,11 @@
             this.Name = "FOfferGoldCredit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FOfferGoldCredit";
+            this.Load += new System.EventHandler(this.FOfferGoldCredit_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PayButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -184,5 +206,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox PayButton;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label Time;
     }
 }

@@ -113,6 +113,16 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4263_middle {
+            get {
+                object obj = ResourceManager.GetObject("4263-middle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_otpravit_zayavku {
             get {
                 object obj = ResourceManager.GetObject("button_otpravit-zayavku", resourceCulture);
@@ -286,6 +296,16 @@ namespace FirstTry.Properties {
         internal static System.Drawing.Bitmap peyzazhi_more_bereg_plyazhi {
             get {
                 object obj = ResourceManager.GetObject("peyzazhi-more-bereg-plyazhi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap success {
+            get {
+                object obj = ResourceManager.GetObject("success", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

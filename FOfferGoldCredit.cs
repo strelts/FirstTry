@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 
 namespace FirstTry
@@ -16,6 +17,8 @@ namespace FirstTry
     public partial class FOfferGoldCredit : Form
     {
         private FPromoCard promoPage;
+        private FSuccess fSuccess;
+      
         public FOfferGoldCredit()
         {
             InitializeComponent();
@@ -31,6 +34,7 @@ namespace FirstTry
             PayButton.Image = FirstTry.Properties.Resources.button_otpravit_zayavku_active;
         }
         private readonly string connectionStringClients = System.Configuration.ConfigurationManager.ConnectionStrings["DBClients"].ConnectionString;
+      
         private void PayButton_Click(object sender, EventArgs e)
         {
 
@@ -46,8 +50,11 @@ namespace FirstTry
                     command.ExecuteNonQuery();
                 }
             }
-            MessageBox.Show("Заявка создана, с вами свяжется менеджер!");
-            Close();
+          
+            fSuccess = new FSuccess();
+            
+            fSuccess.Show();
+            // Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,6 +62,21 @@ namespace FirstTry
             promoPage = new FPromoCard();
             promoPage.Show();
             Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime currentTimeSpan = DateTime.Now;
+
+
+            //TimeSpan currentTimeSpan = DateTime.Now.TimeOfDay;
+
+            Time.Text = currentTimeSpan.ToString("Дата: yyyy-MM-dd \n\nВремя: HH:mm:ss");
+        }
+
+        private void FOfferGoldCredit_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
     }
 }
