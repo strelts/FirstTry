@@ -160,5 +160,14 @@
   <ItemGroup>
     <None Include="Resources\button_snyat-nalichnye_active.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nfc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nfc2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

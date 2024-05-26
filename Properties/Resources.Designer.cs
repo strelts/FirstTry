@@ -103,6 +103,16 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _22 {
+            get {
+                object obj = ResourceManager.GetObject("22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_perejti_k_oformleniyu {
             get {
                 object obj = ResourceManager.GetObject("button_perejti-k-oformleniyu", resourceCulture);
@@ -206,6 +216,26 @@ namespace FirstTry.Properties {
         internal static System.Drawing.Bitmap gold_card {
             get {
                 object obj = ResourceManager.GetObject("gold card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nfc {
+            get {
+                object obj = ResourceManager.GetObject("nfc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nfc2 {
+            get {
+                object obj = ResourceManager.GetObject("nfc2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
