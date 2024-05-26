@@ -113,6 +113,26 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_otpravit_zayavku {
+            get {
+                object obj = ResourceManager.GetObject("button_otpravit-zayavku", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_otpravit_zayavku_active {
+            get {
+                object obj = ResourceManager.GetObject("button_otpravit-zayavku_active", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button_perejti_k_oformleniyu {
             get {
                 object obj = ResourceManager.GetObject("button_perejti-k-oformleniyu", resourceCulture);

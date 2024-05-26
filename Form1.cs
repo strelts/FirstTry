@@ -21,6 +21,7 @@ namespace FirstTry
     public partial class Form1 : Form
     {
         private Form2 authForm;
+        private FPromoCard promoCard;
        
       
         public Form1()
@@ -99,7 +100,9 @@ namespace FirstTry
 
         private void offer_Click(object sender, EventArgs e)
         {
-
+            promoCard  = new FPromoCard();
+            promoCard.Activate();
+            promoCard.Show();
         }
 
         private void offer_MouseLeave(object sender, EventArgs e)
