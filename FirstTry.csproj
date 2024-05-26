@@ -52,6 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Auth.cs" />
+    <Compile Include="FOfferGoldCredit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOfferGoldCredit.Designer.cs">
+      <DependentUpon>FOfferGoldCredit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,29 +70,51 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FPromoCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPromoCard.Designer.cs">
+      <DependentUpon>FPromoCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSuccess.Designer.cs">
+      <DependentUpon>FSuccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="HttpR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FOfferGoldCredit.resx">
+      <DependentUpon>FOfferGoldCredit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FPromoCard.resx">
+      <DependentUpon>FPromoCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSuccess.resx">
+      <DependentUpon>FSuccess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -95,6 +123,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peyzazhi-more-bereg-plyazhi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_platezhi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_platezhi %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_platezhi_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0b0b27d5f6aca7ab72eaa0ee4a3ade0b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zakat_more_volny_157764_1280x800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zakat_more_volny_157764_1280x8001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardsPromo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1588844076_774555.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1674271546_catherineasquithgallery-com-p-fon-vizitki-serii-foto-120.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wL1RUC-XUeU.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinegiftools1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_perejti-k-oformleniyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_perejti-k-oformleniyu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_snyat-nalichnye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vnesti-nalichnye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vnesti-nalichnye_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_snyat-nalichnye_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nfc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nfc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_otpravit-zayavku.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_otpravit-zayavku_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4263-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
