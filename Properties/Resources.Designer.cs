@@ -153,6 +153,46 @@ namespace FirstTry.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_snyat_nalichnye {
+            get {
+                object obj = ResourceManager.GetObject("button_snyat-nalichnye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_snyat_nalichnye_active {
+            get {
+                object obj = ResourceManager.GetObject("button_snyat-nalichnye_active", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_vnesti_nalichnye {
+            get {
+                object obj = ResourceManager.GetObject("button_vnesti-nalichnye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_vnesti_nalichnye_active {
+            get {
+                object obj = ResourceManager.GetObject("button_vnesti-nalichnye_active", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cardsPromo {
             get {
                 object obj = ResourceManager.GetObject("cardsPromo", resourceCulture);

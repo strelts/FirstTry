@@ -43,6 +43,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.offer = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.CashOutButton = new System.Windows.Forms.PictureBox();
+            this.CashInButton = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Promocard)).BeginInit();
             this.panel2.SuspendLayout();
@@ -51,6 +53,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.offer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CashOutButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CashInButton)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -198,9 +202,35 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(92, 34);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(279, 18);
+            this.label4.Size = new System.Drawing.Size(287, 18);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Оформите золотую карту бесплатно!";
+            this.label4.Text = "Оформите бесплатную золотую карту";
+            // 
+            // CashOutButton
+            // 
+            this.CashOutButton.BackColor = System.Drawing.Color.Transparent;
+            this.CashOutButton.Image = global::FirstTry.Properties.Resources.button_snyat_nalichnye;
+            this.CashOutButton.Location = new System.Drawing.Point(491, 463);
+            this.CashOutButton.Name = "CashOutButton";
+            this.CashOutButton.Size = new System.Drawing.Size(355, 80);
+            this.CashOutButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CashOutButton.TabIndex = 10;
+            this.CashOutButton.TabStop = false;
+            this.CashOutButton.MouseLeave += new System.EventHandler(this.CashOutButton_MouseLeave);
+            this.CashOutButton.MouseHover += new System.EventHandler(this.CashOutButton_MouseHover);
+            // 
+            // CashInButton
+            // 
+            this.CashInButton.BackColor = System.Drawing.Color.Transparent;
+            this.CashInButton.Image = global::FirstTry.Properties.Resources.button_vnesti_nalichnye;
+            this.CashInButton.Location = new System.Drawing.Point(491, 332);
+            this.CashInButton.Name = "CashInButton";
+            this.CashInButton.Size = new System.Drawing.Size(355, 80);
+            this.CashInButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CashInButton.TabIndex = 11;
+            this.CashInButton.TabStop = false;
+            this.CashInButton.MouseLeave += new System.EventHandler(this.CashInButton_MouseLeave);
+            this.CashInButton.MouseHover += new System.EventHandler(this.CashInButton_MouseHover);
             // 
             // Form1
             // 
@@ -209,6 +239,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImage = global::FirstTry.Properties.Resources.wL1RUC_XUeU;
             this.ClientSize = new System.Drawing.Size(877, 656);
+            this.Controls.Add(this.CashInButton);
+            this.Controls.Add(this.CashOutButton);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -228,6 +260,8 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.offer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CashOutButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CashInButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -248,6 +282,8 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox offer;
+        private System.Windows.Forms.PictureBox CashOutButton;
+        private System.Windows.Forms.PictureBox CashInButton;
     }
 }
 

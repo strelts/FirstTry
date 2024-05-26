@@ -111,5 +111,25 @@ namespace FirstTry
         {
             offer.Image = FirstTry.Properties.Resources.button_perejti_k_oformleniyu;
         }
+
+        private void CashInButton_MouseHover(object sender, EventArgs e)
+        {
+            CashInButton.Image = FirstTry.Properties.Resources.button_vnesti_nalichnye_active;
+        }
+
+        private void CashInButton_MouseLeave(object sender, EventArgs e)
+        {
+            CashInButton.Image = FirstTry.Properties.Resources.button_vnesti_nalichnye;
+        }
+
+        private void CashOutButton_MouseHover(object sender, EventArgs e)
+        {
+            CashOutButton.Image = FirstTry.Properties.Resources.button_snyat_nalichnye_active;
+        }
+
+        private void CashOutButton_MouseLeave(object sender, EventArgs e)
+        {
+            CashOutButton.Image = FirstTry.Properties.Resources.button_snyat_nalichnye;
+        }
     }
 }

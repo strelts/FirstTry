@@ -148,5 +148,17 @@
   <ItemGroup>
     <None Include="Resources\button_perejti-k-oformleniyu1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_snyat-nalichnye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vnesti-nalichnye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_vnesti-nalichnye_active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_snyat-nalichnye_active.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

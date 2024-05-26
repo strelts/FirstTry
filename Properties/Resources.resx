@@ -142,6 +142,9 @@
   <data name="peyzazhi-more-bereg-plyazhi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\peyzazhi-more-bereg-plyazhi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="button_perejti-k-oformleniyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_perejti-k-oformleniyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="button_platezhi_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_platezhi_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,17 +154,26 @@
   <data name="zakat_more_volny_157764_1280x8002" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zakat_more_volny_157764_1280x8001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wL1RUC-XUeU" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wL1RUC-XUeU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_snyat-nalichnye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_snyat-nalichnye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zakat_more_volny_157764_1280x800" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zakat_more_volny_157764_1280x800.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="wL1RUC-XUeU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wL1RUC-XUeU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_vnesti-nalichnye_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_vnesti-nalichnye_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_perejti-k-oformleniyu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_perejti-k-oformleniyu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1674271546_catherineasquithgallery-com-p-fon-vizitki-serii-foto-120" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1674271546_catherineasquithgallery-com-p-fon-vizitki-serii-foto-120.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_perejti-k-oformleniyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_perejti-k-oformleniyu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_vnesti-nalichnye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_vnesti-nalichnye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0b0b27d5f6aca7ab72eaa0ee4a3ade0b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0b0b27d5f6aca7ab72eaa0ee4a3ade0b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +187,7 @@
   <data name="0b0b27d5f6aca7ab72eaa0ee4a3ade0b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0b0b27d5f6aca7ab72eaa0ee4a3ade0b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_perejti-k-oformleniyu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_perejti-k-oformleniyu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_snyat-nalichnye_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_snyat-nalichnye_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
